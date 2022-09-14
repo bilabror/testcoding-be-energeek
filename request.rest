@@ -1,0 +1,18 @@
+@baseUrl = http://testcoding-be-energeek.test/api
+
+###
+GET {{baseUrl}}/candidates HTTP/1.1
+
+###
+GET {{baseUrl}}/jobs HTTP/1.1
+
+###
+GET {{baseUrl}}/skills HTTP/1.1
+
+###
+POST {{baseUrl}}/candidates HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+}
